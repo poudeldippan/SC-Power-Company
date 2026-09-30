@@ -1513,6 +1513,20 @@ img {
   transform: scale(1.04);
 }
 
+.leader-avatar-fallback {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1E3A8A 0%, #0F172A 100%);
+  color: #FFFFFF;
+  font-family: var(--font-heading);
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
 .leader-info-detailed {
   padding: 24px;
   flex: 1;
